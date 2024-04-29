@@ -1,0 +1,77 @@
+body{
+    margin: 150px ;
+    font-family: "Roboto", sans-serif;
+}
+.hero{
+    background-color: #481E14;
+    color: #5F374B;
+    height: 100vh;
+    display: flex;
+    font-family: "Jacquard 24", system-ui;
+}
+.korobka{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    margin: 0 0;
+    padding: 0 0;
+    width: 50%;
+}
+h1{
+    line-height: 120px;
+    margin: 50px 0;
+    font-size: 9rem;
+}
+h2{
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 400;
+
+
+}
+h3{
+    font-size: 2rem;
+    margin: 50px;
+    font-weight: 400;
+}
+.prizrak{
+    z-index: 5;
+    top: 500px;
+    right:300px;
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   background-color: white;
+    box-shadow: 0 0 300px 100px white;
+}
+.text{
+    position: absolute;
+    height: 30vh;
+    left: 300px;
+    top: 300px;
+    background-color: #D6589F;
+}
+.t{
+    position: absolute;
+    z-index: 5;
+    height: 50vh;
+    right: 30px;
+    top: 50px;
+    background-color: #114232;
+    rotate: -45deg;
+}
+.ff{
+    position: absolute;
+    z-index: 5;
+    height: 30vh;
+    right: 500px;
+    top: 50px;
+    background-color: #FBF3D5;
+    rotate: -45deg;
+}
+.photo{
+    width: 70%;
+    rotate: -5deg;
+    box-shadow: 20px 20px 20px 0 black;
+}
