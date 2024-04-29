@@ -8,6 +8,7 @@ body{
     height: 100vh;
     display: flex;
     font-family: "Jacquard 24", system-ui;
+    rotate: -25deg;
 }
 .korobka{
     align-items: center;
@@ -27,7 +28,7 @@ h2{
     font-size: 2rem;
     margin: 0;
     font-weight: 400;
-
+    rotate: 25deg;
 
 }
 h3{
@@ -45,33 +46,4 @@ h3{
    background-color: white;
     box-shadow: 0 0 300px 100px white;
 }
-.text{
-    position: absolute;
-    height: 30vh;
-    left: 300px;
-    top: 300px;
-    background-color: #D6589F;
-}
-.t{
-    position: absolute;
-    z-index: 5;
-    height: 50vh;
-    right: 30px;
-    top: 50px;
-    background-color: #114232;
-    rotate: -45deg;
-}
-.ff{
-    position: absolute;
-    z-index: 5;
-    height: 30vh;
-    right: 500px;
-    top: 50px;
-    background-color: #FBF3D5;
-    rotate: -45deg;
-}
-.photo{
-    width: 70%;
-    rotate: -5deg;
-    box-shadow: 20px 20px 20px 0 black;
-}
+
