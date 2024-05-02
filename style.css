@@ -46,4 +46,30 @@ h3{
    background-color: white;
     box-shadow: 0 0 300px 100px white;
 }
+.text{
+    position: absolute;
+    height: 30vh;
+    left: 300px;
+    top: 300px;
+    background-color: #D6589F;
+    rotate: 135deg;
+}
+.t{
+    position: absolute;
+    z-index: 5;
+    height: 50vh;
+    right: 30px;
+    top: 50px;
+    background-color: #114232;
+    rotate: -45deg;
+}
+.ff{
+    position: absolute;
+    z-index: 5;
+    height: 30vh;
+    right: 500px;
+    top: 50px;
+    background-color: #FBF3D5;
+    rotate: -45deg;
+}
 
